@@ -32,7 +32,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "grunt all"
+    "test": "grunt all",
+    "postinstall": "grunt build"
   },
   "repository": {
     "type": "git",
